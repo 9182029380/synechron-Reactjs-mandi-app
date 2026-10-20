@@ -1,0 +1,78 @@
+
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f3f6f4;
+    color: #26352c;
+}
+
+.container {
+    max-width: 1200px;
+    margin: 40px auto;
+    padding: 24px;
+}
+
+h1 {
+    margin-bottom: 8px;
+    color: #24583c;
+}
+
+.subtitle {
+    color: #68766c;
+    margin-bottom: 24px;
+}
+
+.table-wrapper {
+    overflow-x: auto;
+    background: white;
+    border-radius: 10px;
+    box-shadow: 0 3px 12px #00000010;
+}
+
+table {
+    width: 100%;
+    border-collapse: collapse;
+    min-width: 850px;
+}
+
+th,
+td {
+    padding: 14px;
+    text-align: left;
+    border-bottom: 1px solid #e5eae6;
+    white-space: nowrap;
+}
+
+th {
+    background: #24583c;
+    color: white;
+}
+
+tbody tr:hover {
+    background: #f0f7f1;
+}
+
+.modal-price {
+    color: #187344;
+    font-weight: bold;
+}
+
+.message,
+.error {
+    margin: 50px auto;
+    text-align: center;
+}
+
+.error {
+    color: #c0392b;
+}
+
+.note {
+    margin-top: 18px;
+    font-size: 13px;
+    color: #68766c;
+}

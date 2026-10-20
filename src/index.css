@@ -1,0 +1,268 @@
+/** {*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*body {*/
+/*    margin: 0;*/
+/*    font-family: Arial, sans-serif;*/
+/*    background: #f1f5f9;*/
+/*    color: #1e293b;*/
+/*}*/
+
+/*.container {*/
+/*    max-width: 1150px;*/
+/*    margin: 0 auto;*/
+/*    padding: 30px 20px;*/
+/*}*/
+
+/*header {*/
+/*    text-align: center;*/
+/*    margin-bottom: 30px;*/
+/*}*/
+
+/*header h1 {*/
+/*    color: #1d4ed8;*/
+/*    margin-bottom: 8px;*/
+/*}*/
+
+/*header p {*/
+/*    color: #64748b;*/
+/*}*/
+
+/*.forms-container {*/
+/*    display: grid;*/
+/*    grid-template-columns: repeat(2, minmax(0, 1fr));*/
+/*    gap: 24px;*/
+/*    align-items: start;*/
+/*}*/
+
+/*.form-card {*/
+/*    background: white;*/
+/*    padding: 24px;*/
+/*    border-radius: 12px;*/
+/*    box-shadow: 0 4px 14px rgba(15, 23, 42, 0.08);*/
+/*}*/
+
+/*.form-card h2 {*/
+/*    margin-top: 0;*/
+/*    margin-bottom: 24px;*/
+/*    font-size: 21px;*/
+/*}*/
+
+/*form {*/
+/*    display: flex;*/
+/*    flex-direction: column;*/
+/*    gap: 10px;*/
+/*}*/
+
+/*label {*/
+/*    font-weight: 600;*/
+/*    margin-top: 8px;*/
+/*}*/
+
+/*input,*/
+/*select {*/
+/*    width: 100%;*/
+/*    padding: 12px;*/
+/*    border: 1px solid #cbd5e1;*/
+/*    border-radius: 7px;*/
+/*    font-size: 15px;*/
+/*    background: white;*/
+/*}*/
+
+/*input:focus,*/
+/*select:focus {*/
+/*    outline: 2px solid #93c5fd;*/
+/*    border-color: #2563eb;*/
+/*}*/
+
+/*button {*/
+/*    margin-top: 16px;*/
+/*    padding: 12px;*/
+/*    border: none;*/
+/*    border-radius: 7px;*/
+/*    background: #2563eb;*/
+/*    color: white;*/
+/*    font-size: 15px;*/
+/*    font-weight: 600;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*button:hover {*/
+/*    background: #1d4ed8;*/
+/*}*/
+
+/*.preview,*/
+/*.success {*/
+/*    margin-top: 22px;*/
+/*    padding: 16px;*/
+/*    border-radius: 8px;*/
+/*    overflow-wrap: anywhere;*/
+/*}*/
+
+/*.preview {*/
+/*    background: #eff6ff;*/
+/*}*/
+
+/*.success {*/
+/*    background: #ecfdf5;*/
+/*    border: 1px solid #a7f3d0;*/
+/*}*/
+
+/*.preview h3,*/
+/*.success h3 {*/
+/*    margin-top: 0;*/
+/*}*/
+
+/*.preview p,*/
+/*.success p {*/
+/*    margin-bottom: 8px;*/
+/*}*/
+
+/*@media (max-width: 760px) {*/
+/*    .forms-container {*/
+/*        grid-template-columns: 1fr;*/
+/*    }*/
+
+/*    .container {*/
+/*        padding: 20px 14px;*/
+/*    }*/
+/*}*/
+
+
+--------------------------------------
+/** {*/
+/*    box-sizing: border-box;*/
+/*}*/
+
+/*body {*/
+/*    margin: 0;*/
+/*    font-family: Arial, sans-serif;*/
+/*    background: #f3f6fa;*/
+/*    color: #1e293b;*/
+/*}*/
+
+/*.container {*/
+/*    max-width: 700px;*/
+/*    margin: 60px auto;*/
+/*    padding: 30px;*/
+/*    background: white;*/
+/*    border-radius: 12px;*/
+/*    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);*/
+/*}*/
+
+/*h1 {*/
+/*    color: #1d4ed8;*/
+/*    text-align: center;*/
+/*}*/
+
+/*.counter {*/
+/*    margin: 25px 0;*/
+/*    padding: 20px;*/
+/*    background: #eff6ff;*/
+/*    border-radius: 8px;*/
+/*}*/
+
+/*button {*/
+/*    padding: 10px 16px;*/
+/*    border: none;*/
+/*    border-radius: 6px;*/
+/*    background: #2563eb;*/
+/*    color: white;*/
+/*    cursor: pointer;*/
+/*}*/
+
+/*button:hover {*/
+/*    background: #1d4ed8;*/
+/*}*/
+
+/*.car-card {*/
+/*    padding: 20px;*/
+/*    border: 1px solid #dbeafe;*/
+/*    border-radius: 8px;*/
+/*    background: #f8fafc;*/
+/*}*/
+
+/*.car-card h2 {*/
+/*    margin-top: 0;*/
+/*}*/
+-----------------------------------------------------------
+* {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: Arial, sans-serif;
+    background: #f1f5f9;
+    color: #1e293b;
+}
+
+.container {
+    max-width: 600px;
+    margin: 50px auto;
+    padding: 30px;
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.08);
+}
+
+h1 {
+    text-align: center;
+    color: #1d4ed8;
+}
+
+h2 {
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+    gap: 12px;
+    margin-top: 25px;
+}
+
+label {
+    font-weight: bold;
+}
+
+input,
+select {
+    padding: 12px;
+    border: 1px solid #cbd5e1;
+    border-radius: 6px;
+    font-size: 15px;
+}
+
+button {
+    padding: 12px 16px;
+    background: #2563eb;
+    color: white;
+    border: none;
+    border-radius: 6px;
+    cursor: pointer;
+    margin: 8px 0;
+}
+
+button:hover {
+    background: #1d4ed8;
+}
+
+.login,
+.confirmation {
+    margin-top: 25px;
+    padding: 20px;
+    border-radius: 8px;
+    background: #eff6ff;
+}
+
+.status {
+    color: #15803d;
+    font-weight: bold;
+}
+
+.confirmation {
+    background: #ecfdf5;
+    border: 1px solid #a7f3d0;
+}
